@@ -1,0 +1,9 @@
+.account-container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

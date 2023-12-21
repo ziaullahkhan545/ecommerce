@@ -1,0 +1,9 @@
+.directory-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    gap: 15px;
+    margin-bottom: 15px;
+}

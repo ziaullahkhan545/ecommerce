@@ -1,0 +1,60 @@
+.checkout {
+    width: 80%;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+.checkout .head {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 0.5px solid lightgray;
+}
+
+.checkout .head .title {
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.checkout .head .title span {
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+
+.checkout .checkout-cart-items {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.checkout .total {
+    padding: 10px;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.checkout .testCode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout .testCode p {
+    color: red;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.checkout .checkoutBtn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 30px;
+}

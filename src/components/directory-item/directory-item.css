@@ -1,0 +1,67 @@
+.directory-item {
+    width: 32%;
+}
+
+.background-image {
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.directory-item-large {
+    width: 48.85%;
+}
+
+.background-image-large {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid gray;
+    background-color: rgba(253, 253, 253, 0.3);
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.menu-item:hover {
+    background-color: rgba(253, 253, 253, 0.5);
+
+}
+
+.menu-item .title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+
+.menu-item .sub-title {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    color: rgb(204, 199, 199);
+    text-transform: capitalize;
+    transition: 0.5s;
+}   
+
+.menu-item .sub-title:hover {
+    color: rgb(206, 206, 206);
+}

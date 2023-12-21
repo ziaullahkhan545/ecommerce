@@ -1,0 +1,5 @@
+.cnIcon:hover {
+    background-color: lightgray;
+    transition: 1s all;
+    border-radius: 50%;
+}

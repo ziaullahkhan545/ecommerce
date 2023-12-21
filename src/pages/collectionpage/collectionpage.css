@@ -1,0 +1,21 @@
+.collection-page {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.collection-page-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}

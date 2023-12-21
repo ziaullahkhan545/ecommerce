@@ -1,0 +1,63 @@
+.collection-item {
+    width: 24%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.collection-item .product-image {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.collection-item .product-image .addToCart {
+    width: 85%;
+    opacity: 0.7;
+    position: absolute;
+    padding: 10px;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+
+.collection-item .product-image .addToCart:hover {
+    background-color: black;
+    color: white;
+}
+
+.product-image .image {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.collection-item .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+.card-footer .name {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    color: darkgray;
+}
+
+.card-footer .price {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    color: darkgray;
+}

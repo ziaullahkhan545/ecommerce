@@ -1,0 +1,69 @@
+.login-card {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.login-card .login-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 10px;
+}
+
+.login-card .login-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    color: darkgray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.login-card form {
+    padding-top: 25px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+.input-field {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-field input {
+    width: 100%;
+    border: 1px solid darkgray;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+}
+
+form .buttons-signup {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+form .buttons-signup button {
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+form .buttons-signup .signup {
+    width: 30%;
+}
